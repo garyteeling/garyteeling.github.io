@@ -355,10 +355,8 @@ td, th {
 body {
   margin: 0;
   padding: 0;
-  max-width: 100vh;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
   color: #333;
   position: relative;
   text-align: center; }
@@ -503,7 +501,7 @@ span.weak {
   justify-content: center; }
   #nav-menu .nav-container {
     padding: 20px;
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center; }
     #nav-menu .nav-container h3 {
       box-shadow: inset 0px -1px 0px #999; }
@@ -553,3 +551,10 @@ span.weak {
   z-index: 99;
   right: 149px;
   top: 9px; }
+
+.section img {
+  width: 80%; }
+
+@media (max-width: 900px) {
+  .section img {
+    width: 98%; } }
